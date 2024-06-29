@@ -1,13 +1,12 @@
-import './App.css'
+import "./App.css";
+import { Helloworld } from "./components/Helloworld/Helloworld";
 
 function App() {
-  
-
   return (
     <>
-      <h1>Hello Word</h1>
+      <Helloworld />
     </>
-  )
+  );
 }
 
-export default App
+export default App;
