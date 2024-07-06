@@ -1,10 +1,10 @@
-import "./App.css";
-import { Helloworld } from "./components/Helloworld/Helloworld";
-
+import Pokemon from "./components/ApiPokemon";
+import Helloworld from "./components/Helloworld/Helloworld";
 function App() {
   return (
     <>
-      <Helloworld />
+      {/* <Helloworld /> */}
+      <Pokemon/>
     </>
   );
 }
