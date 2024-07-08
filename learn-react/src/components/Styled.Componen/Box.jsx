@@ -4,9 +4,9 @@ export function Box(){
     return(
         <Navbar>
             
-                <List href="#">Home</List>
-                <List href="#">About</List>
-                <List href="#">Contact</List>
+                <List  $bg={"first"} href="#">Home</List>
+                <List $bg={"second"} href="#">About</List>
+                <List  $bg={"third"}href="#">Contact</List>
             
         </Navbar>
     );

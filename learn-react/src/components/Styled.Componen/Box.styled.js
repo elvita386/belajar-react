@@ -15,6 +15,6 @@ color: white;
 text-decoration: none;
 &:hover {
     color: white;
-    background-color: green;
+    background-color: ${(props)=>props.$bg ==="first"?"red" :props.$bg ==="second"?"green":"blue"};
 }
 `;
